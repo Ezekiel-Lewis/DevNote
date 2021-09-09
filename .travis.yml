@@ -9,8 +9,8 @@ after_success:
   - "docker push ezekie17/devnote" 
 deploy: 
   access_key_id: $AWS_ACCESS_KEY
-  app: "DevNote"
-  bucket_name: eldevelopapp-bucket
+  app: "Eldevelopapp"
+  bucket_name: devnote-bucket
   bucket_path: docker
   env: Eldevelopapp-env-1
   provider: elasticbeanstalk
