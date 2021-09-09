@@ -7,7 +7,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] ='postgresql://hello_flask:hello_flask@db:
 
 from app.models import db, linuxTable, pythonTable, dockerTable, awsTable
 
-db.init_app(app)
+db.init_app(app) #DB means data base
 with app.app_context():
     db.create_all()
     db.session.commit()
