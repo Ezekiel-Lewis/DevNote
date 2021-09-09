@@ -10,7 +10,7 @@ after_success:
 deploy: 
   access_key_id: $AWS_ACCESS_KEY
   app: "DevNote"
-  bucket_name: Eldevelopapp-bucket
+  bucket_name: eldevelopapp-bucket
   bucket_path: docker
   env: Eldevelopapp-env-1
   provider: elasticbeanstalk
